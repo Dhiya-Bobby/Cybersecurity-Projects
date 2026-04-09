@@ -1,18 +1,18 @@
-\# 🔍 Port Scanner
+\# 🚨 Intrusion Detection System (IDS)
 
 
 
 \## Description
 
-A Python-based tool to scan open ports and identify services.
+A real-time network monitoring system using Python and Scapy.
 
 
 
 \## Features
 
-\- Detects open ports
+\- Captures network packets
 
-\- Performs banner grabbing
+\- Detects suspicious activity
 
 
 
@@ -20,5 +20,17 @@ A Python-based tool to scan open ports and identify services.
 
 ```bash
 
-python cyber.py
+python ids.py
+
+
+
+
+
+Note:
+
+
+
+Requires Npcap installed
+
+Run as Administrator
 
